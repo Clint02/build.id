@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #47597e;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
   color: #293b5f;
@@ -32,11 +36,11 @@ body {
   float: left;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
   }
-}
+} */
 
 #header #logo h1 {
   font-size: 34px;
@@ -51,7 +55,6 @@ body {
 #header #logo h1 a,
 #header #logo h1 a:hover {
   color: #293b5f;
-  padding-left: 10px;
   text-decoration: none;
 }
 #header #logo img {
@@ -112,11 +115,11 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #nav-menu-container {
     padding-right: 60px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   #nav-menu-container {
@@ -284,6 +287,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-image: url("../img/home.png");
   background-size: cover;
   background-position: center center;
+}
+
+#home .container-fluid {
+  max-width: 800px;
+}
+
+#home .btn-contactus {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#home .btn-aboutus {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* Back To Top */
