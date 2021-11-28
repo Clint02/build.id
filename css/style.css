@@ -8,9 +8,13 @@
 	padding-right: 4rem;
 }
 
-.w-35 {
-	width: 35%;
-	height: 35%;
+.w-30 {
+	width: 30%;
+	height: 30%;
+}
+
+.me-6 {
+	margin-right: 6rem;
 }
 
 .pt-6 {
@@ -296,6 +300,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #aboutus span {
 	border-bottom: 2px solid var(--primary-color);
+}
+
+#aboutus-left {
+	width: 49%;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+#aboutus-left:hover {
+	transform: rotate(15deg) scale(1.1);
+	border-radius: 40px;
+	opacity: 1;
+	z-index: 10;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.192);
 }
 
 /* Categories */
