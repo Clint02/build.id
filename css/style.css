@@ -22,7 +22,10 @@
 }
 
 hr {
-	border: 1px solid red;
+	width: 65%;
+	height: 2px !important;
+	justify-content: center;
+	color: black;
 }
 
 body {
@@ -322,6 +325,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background-image: url("../img/categories.png");
 	background-size: cover;
 	background-position: center center;
+}
+
+#categories .container-fluid {
+	align-items: center;
 }
 
 /* Projects */
