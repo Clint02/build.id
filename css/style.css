@@ -365,3 +365,201 @@ body.mobile-nav-active #mobile-nav-toggle {
 		bottom: 15px;
 	}
 }
+
+/* Projects & Footer(Alip) */
+
+.projects-container{
+	font-family: 'Noto Sans';
+	color: #47597E;
+	position: relative;
+}
+
+.projects-title{
+	text-align: center;
+	font-weight: 900;
+	font-size: 48px;
+	color: #293B5F;
+}
+
+.left-content{
+	margin-top: 100px;
+	margin-left: 200px;
+}  
+
+.kimsoo-title{
+	font-size: 18px;
+	font-weight: 800;
+	color: #293B5F;
+}
+
+.topright-content{
+	margin-left: -70px;
+}
+
+.botright-content{
+	margin-top: 15px;
+	margin-left: 110px;
+}
+
+.workplace-title{
+	font-size: 18px;
+	font-weight: 800;
+	color: #293B5F;
+}
+
+.botleft-content{
+	margin-top: 100px;
+	margin-right: 899px;
+}
+
+.right-content{
+	margin-top: -1540px;
+	margin-left: 1050px;
+}
+
+.airport-title{
+	font-size: 18px;
+	font-weight: 800;
+	color: #293B5F;
+}
+
+.coffee-title{
+	font-size: 18px;
+	font-weight: 800;
+	color: #293B5F;
+}
+
+.project-left-line{
+	margin-left: -1700px;
+	width: 10px;
+	height: 10px;
+	transform :rotate(90deg)
+}
+
+.footer-container{
+	background-color: #293B5F;
+	color: #B1BFDC;
+	font-family: 'Noto Sans';
+	position:relative;
+	left: -1%;
+	bottom: 0px;
+	width: 101.4%;
+	height: 70%;
+}
+
+.footer-upper{
+	background-color:#293B5F;
+	color:#293B5F;
+	margin-top: 100px;
+}
+
+.footer-title{
+	font-family: 'Comfortaa';
+	font-weight: bold;
+	font-size: 48px;
+	color: white;
+}
+
+.footer-content{
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+
+.twitter{
+	margin-left: 15px;
+}
+
+.socialmedia{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.email{
+	font-size: 20px;
+}
+
+.aboutus{
+	font-size: 22px;
+	color: #F2F2F2;
+}
+
+.aboutus-child{
+	font-size: 20px;
+}
+
+.categories{
+	font-size: 22px;
+	color: #F2F2F2;
+}
+
+.categories-child{
+	font-size: 20px;
+}
+
+.project{
+	font-size: 22px;
+	color: #F2F2F2;
+}
+
+.project-child{
+	font-size: 20px;
+}
+
+.legal{
+	font-size: 22px;
+	color: #F2F2F2;
+}
+
+.legal-child{
+	font-size: 20px;
+}
+
+.content-midleft{
+	margin-right: 300px;
+	margin-left: 800px;
+	margin-top: 120px;
+}
+
+.content-leftmid{
+	margin-right: 300px;
+	margin-left: 550px;
+	margin-top: -185px;
+	margin-bottom: -200px;
+}
+
+.content-midright{
+	margin-left: 1050px;
+	margin-top: -195px;
+	margin-bottom: -200px;
+}
+
+.content-rightmid{
+	margin-left: 1300;
+	margin-top: -245px;
+	margin-bottom: -200px;
+}
+
+.left-line{
+	margin-top: 350px;
+	margin-right: 300px;
+	margin-left: 200px;
+	width: 550px;
+	color: #8B9EC6;
+}
+
+.right-line{
+	margin-top: -9.5px;
+	margin-right: 0px;
+	margin-left: 1170px;
+	width: 550px;
+	color: #8B9EC6;
+}
+
+.copyright{
+	margin-top: -20px;
+	margin-left: 780px;
+}
+
+/* Alip css end */
