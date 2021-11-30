@@ -396,6 +396,22 @@ a {
 }
 
 /* Types */
+.owl-carousel .owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.owl-carousel {
+	text-align: center;
+}
+
+.Types {
+	margin-bottom: 10%;
+}
+
+.type-img {
+	border-radius: 6%;
+}
 
 /* Footer */
 footer,
@@ -444,19 +460,90 @@ footer,
 	}
 }
 
-.owl-carousel .owl-stage {
+/* Jumbotron */
+#jumbotron {
+	display: flex;
+	flex-direction: "column";
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url("../img/home.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+#jumbotron .container-fluid {
+	max-width: 800px;
+}
+
+/* apip */
+#pricecard {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.card {
+	border-radius: 16px;
+	border-style: groove;
+}
+
+.card-body {
+	background-color: #f8f8f8;
+}
+
+.card-title {
+	padding-top: 50px;
+	color: #293b5f;
+}
+
+.price {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #293b5f;
+	font-size: 100px;
+}
+
+.testimoni2-container {
+	background-color: #f8f8f8;
+	height: 25rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-bottom: 5rem;
+}
+
+.tittle-test {
+	font-size: 60px;
+	font-weight: bold;
+	color: #293b5f;
+}
+
+.tittle {
+	font-size: 70px;
+	font-weight: bold;
+	color: #293b5f;
+}
+
+p {
+	font-size: 22px;
+	font-weight: 300;
+	color: #47597e;
+}
+
+.partner-container {
+	background-color: #f8f8f8;
+	height: 20rem;
+	padding-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.photo-partner {
 	display: flex;
 	align-items: center;
-  }
-  
-  .owl-carousel {
-	text-align: center;
-  }
+	justify-content: space-between;
+}
 
-  .Types{
-	  margin-bottom: 10%;
-  }
-
-  .type-img{
-	border-radius: 6%;
-  }
+/* .jumbotron-container {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	background-position: center center;
+} */

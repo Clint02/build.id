@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="UTF-8" />
+		<title>BUILD.ID</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="/css/style1.css" />
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS-->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+
+		<!-- Font Awesome -->
 		<script
-			src="https://kit.fontawesome.com/6477da7307.js"
+			src="https://kit.fontawesome.com/8466cafeca.js"
 			crossorigin="anonymous"
 		></script>
-		<title>Projects Pricing</title>
+
+		<!-- Animate CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+
+		<!-- Animate on Scroll CS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- Main Stylesheet File -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.css" />
+		<link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css" />
 	</head>
 
 	<body>
+		<header id="header">
+			<div class="container-fluid px-6">
+				<div id="logo" class="pull-left">
+					<h1><a href="#home" class="scrollto">build.id</a></h1>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class="nav-item menu-active"><a href="#jumbotron">Home</a></li>
+						<li class="nav-item"><a href="#pricecard">Price</a></li>
+						<li class="nav-item"><a href="#testimoni2">Testimony</a></li>
+						<li class="nav-item"><a href="#partner">Partners</a></li>
+					</ul>
+				</nav>
+				<button type="button" id="mobile-nav-toggle">
+					<i class="fa fa-bars"><div class="wrapbtn"></div></i>
+				</button>
+			</div>
+		</header>
 		<!-- Jumbotron -->
-		<section id="jumbotron">
-			<div class="jumbotron-container">
-				<div class="row justify-content-center">
-					<div class="col-9">
-						<h1 class="tittle">PROJECTS PRICING</h1>
-						<p>
-							Everything can be with us building, renovating, remodeling,
+		<section id="jumbotron">.
+			<div
+				class="
+					container-fluid
+					px-6
+					mx-0
+					animate__animated animate__lightSpeedInLeft
+				"
+			>
+				<h1 class="fw-bold">PROJECTS PRICING</h1>
+				<p>
+					Everything can be with us building, renovating, remodeling,
 							consulting and many others. What are you waiting for, join us
 							immediately!
-						</p>
-					</div>
-				</div>
-			</div>
+				</p>
 		</section>
 		<!-- End Jumbotron -->
 
@@ -217,11 +266,80 @@
 		</section>
 		<!-- End Partner -->
 
-		<!-- Bootstrap Bundle with Popper -->
+		<!-- Footer Start -->
+		<footer class="container-fluid px-6 py-5">
+			<div class="row">
+				<div class="col-md-4 col-lg-4">
+					<h2 class="footer-title mb-3 text-white">build.id</h2>
+					<div class="footer-items">
+						<div class="mb-3">
+							<img src="img/Instagram.png" alt="Instagram" />
+							<img src="img/Twitter.png" class="twitter" alt="Twitter" />
+						</div>
+						<p>buildwithus@gmail.com</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-2 col-lg-2">
+					<p class="text-white">About Us</p>
+					<p class="footer-items">Contact Us</p>
+				</div>
+				<div class="col-sm-6 col-md-2 col-lg-2">
+					<p class="text-white">Categories</p>
+					<dl class="footer-items">
+						<dd>Architecture</dd>
+						<dd>Design Interior</dd>
+						<dd>Furniture &amp; Design</dd>
+					</dl>
+				</div>
+				<div class="col-sm-6 col-md-2 col-lg-2">
+					<p class="text-white">Projects</p>
+					<dl class="footer-items">
+						<dd>Changi Airport</dd>
+						<dd>Kim Soo Home</dd>
+						<dd>Workplace</dd>
+						<dd>Arabica Coffe</dd>
+					</dl>
+				</div>
+				<div class="col-sm-6 col-md-2 col-lg-2">
+					<p class="text-white">Legal</p>
+					<dl class="footer-items">
+						<dd>Privacy Policy</dd>
+						<dd>Terms and Conditions</dd>
+						<dd>Delivery Terms</dd>
+					</dl>
+				</div>
+			</div>
+		</footer>
+		<div class="container-fluid footer-copyright px-6 py-4">
+			<div class="row">
+				<div class="col-lg-4 d-flex">
+					<div class="white-line"></div>
+				</div>
+				<div class="col-lg-4 footer-items text-center">
+					Copyright © 2020 Renov.in | All Rights Reserved
+				</div>
+				<div class="col-lg-4 d-flex">
+					<div class="white-line"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer End -->
+
+		<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+		<!-- Library Script -->
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+		<script
+			type="text/javascript"
+			src="lib/touchSwipe/jquery.touchSwipe.min.js"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
