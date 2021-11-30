@@ -452,3 +452,11 @@ footer,
   .owl-carousel {
 	text-align: center;
   }
+
+  .Types{
+	  margin-bottom: 10%;
+  }
+
+  .type-img{
+	border-radius: 6%;
+  }
