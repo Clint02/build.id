@@ -76,7 +76,7 @@ jQuery(document).ready(function ($) {
 		margin: 10,
 		stagePadding: -1,
 		loop:true,
-		nav:true,
+		nav:false,
 		responsive:{
 			0:{
 				items:1
