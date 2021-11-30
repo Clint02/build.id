@@ -69,7 +69,24 @@ jQuery(document).ready(function ($) {
 	});
 
 	// Owl Carousel
-	$(document).ready(function () {
-		$(".owl-carousel").owlCarousel();
-	});
+	$('.owl-carousel').owlCarousel({
+		items: 5,
+		autoplay: true,
+		autoplayTimeout: 4000,	
+		margin: 10,
+		stagePadding: -1,
+		loop:true,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
 });
