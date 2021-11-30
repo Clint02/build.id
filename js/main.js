@@ -67,4 +67,9 @@ jQuery(document).ready(function ($) {
 	window.addEventListener("load", () => {
 		aos_init();
 	});
+
+	// Owl Carousel
+	$(document).ready(function () {
+		$(".owl-carousel").owlCarousel();
+	});
 });

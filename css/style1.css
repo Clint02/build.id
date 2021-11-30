@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.jumbotron-container {
+    background-image: url(https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    width: auto;
+}
+
+#pricecard {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    border-radius: 16px;
+    border-style: groove;
+}
+
+.card-body {
+    background-color: #F8F8F8;
+    /* border-style: groove; */
+}
+
+.card-title{
+    padding-top: 50px;
+    color: #293B5F;
+}
+
+.price{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #293B5F;
+    font-size: 100px;
+}
+
+.testimoni2-container {
+    background-color: #F8F8F8;
+    height: 25rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+}
+
+.tittle-test {
+    font-size: 60px;
+    font-weight: bold;
+    color: #293B5F;
+}
+
+.tittle {
+    font-size: 70px;
+    font-weight: bold;
+    color: #293B5F;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #47597E;
+}
+
+.partner-container {
+    background-color: #F8F8F8;
+    height: 20rem;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.photo-partner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
