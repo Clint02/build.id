@@ -479,7 +479,7 @@ footer,
 	max-width: 800px;
 }
 
-/* apip */
+/* Price Card */
 #pricecard {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
@@ -487,23 +487,16 @@ footer,
 
 .card {
 	border-radius: 16px;
-	border-style: groove;
-}
-
-.card-body {
 	background-color: #f8f8f8;
 }
 
-.card-title {
-	padding-top: 50px;
-	color: #293b5f;
+.price {
+	font-size: 100px;
 }
 
-.price {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #293b5f;
-	font-size: 100px;
+/* Testimony */
+#testimoni2 button {
+	opacity: 0;
 }
 
 .testimoni2-container {
@@ -515,21 +508,16 @@ footer,
 .tittle-test {
 	font-size: 60px;
 	font-weight: bold;
-	color: #293b5f;
+	color: var(--primary-color);
 }
 
 .tittle {
 	font-size: 70px;
 	font-weight: bold;
-	color: #293b5f;
+	color: var(--primary-color);
 }
 
-p {
-	font-size: 22px;
-	font-weight: 300;
-	color: #47597e;
-}
-
+/* Partners */
 .partner-container {
 	background-color: #f8f8f8;
 	padding-top: 5rem;
