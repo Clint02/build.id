@@ -307,7 +307,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #aboutus-left {
 	width: 49%;
-	cursor: pointer;
 	transition: all 0.4s;
 }
 #aboutus-left:hover {
@@ -340,6 +339,11 @@ a {
 	color: #47597e;
 	width: 100%;
 	height: 500px;
+	transition: transform 0.2s;
+}
+
+.card-category:hover {
+	transform: scale(1.1);
 }
 
 .card-category .card-category-content {
