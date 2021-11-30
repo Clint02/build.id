@@ -59,4 +59,12 @@ jQuery(document).ready(function ($) {
 			$(".back-to-top").fadeOut("slow");
 		}
 	});
+
+	// Animation on scroll
+	function aos_init() {
+		AOS.init();
+	}
+	window.addEventListener("load", () => {
+		aos_init();
+	});
 });

@@ -38,6 +38,9 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
 
+		<!-- Animate on Scroll CS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 		<!-- Main Stylesheet File -->
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
@@ -82,16 +85,13 @@
 		</section>
 		<section id="aboutus">
 			<div
-				class="
-					container-fluid
-					px-6
-					mx-0
-					d-flex
-					flex-row
-					pt-6
-					animate__animated animate__fadeInUpBig
-				"
+				class="container-fluid px-6 mx-0 d-flex flex-row pt-6"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-delay="1000"
+				data-aos-anchor-placement="top-bottom"
 			>
+				>
 				<img
 					id="aboutus-left"
 					src="img/aboutus-left.png"
@@ -129,19 +129,22 @@
 		</section>
 		<section id="categories">
 			<div
-				class="
-					container-fluid
-					px-6
-					mx-0
-					d-flex
-					flex-row
-					animate__animated animate__rotateInDownLeft
-				"
+				class="container-fluid px-6 mx-0 d-flex flex-row"
+				data-aos="flip-left"
+				data-aos-duration="1000"
+				data-aos-delay="600"
+				data-aos-anchor-placement="top-bottom"
 			>
 				<h1 class="fw-bold pe-3">Explore by Categories</h1>
 				<hr />
 			</div>
-			<div class="container py-5 animate__animated animate__rotateInDownLeft">
+			<div
+				class="container py-5"
+				data-aos="flip-right"
+				data-aos-duration="1000"
+				data-aos-delay="600"
+				data-aos-anchor-placement="top-bottom"
+			>
 				<div class="row h-auto">
 					<div class="col-lg-4">
 						<div class="card-category d-flex" id="category1">
@@ -326,6 +329,7 @@
 			type="text/javascript"
 			src="lib/touchSwipe/jquery.touchSwipe.min.js"
 		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
