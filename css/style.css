@@ -494,6 +494,10 @@ footer,
 	font-size: 100px;
 }
 
+.text-left {
+	text-align: left;
+}
+
 /* Testimony */
 #testimoni2 button {
 	opacity: 0;
@@ -520,8 +524,6 @@ footer,
 /* Partners */
 .partner-container {
 	background-color: #f8f8f8;
-	padding-top: 5rem;
-	margin-bottom: 5rem;
 }
 
 .photo-partner {
